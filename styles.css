@@ -432,3 +432,60 @@ footer {
     gap: 4px;
   }
 }
+
+
+/* Actividades y conferencias */
+.activity-feature {
+  margin-top: 26px;
+  padding: 26px 28px;
+  background: var(--alt);
+  border: 1px solid var(--line);
+}
+
+.activity-feature h2 {
+  margin-top: 0;
+}
+
+.activity-grid {
+  display: grid;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.activity-item {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  padding: 22px 24px;
+}
+
+.activity-item h3 {
+  margin: 0 0 8px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 1.25;
+}
+
+.activity-meta {
+  margin: 0 0 10px !important;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: .82rem !important;
+  color: var(--muted);
+}
+
+.activity-item p:last-child {
+  margin-bottom: 0;
+}
+
+.activity-section {
+  margin-top: 46px;
+}
+
+.activity-section:first-child {
+  margin-top: 0;
+}
+
+.small-note {
+  font-size: .95rem !important;
+  color: var(--muted);
+}
