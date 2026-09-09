@@ -1,0 +1,3 @@
+Sube todos los archivos de este paquete a la raíz del repositorio apanizo-star.github.io.
+Los HTML y styles.css reemplazan las versiones anteriores; los .webp son nuevas imágenes optimizadas.
+No es necesario borrar README.md ni agustin-panizo.png.
