@@ -1,3 +1,14 @@
-Sube todos los archivos de este paquete a la raíz del repositorio apanizo-star.github.io.
-Los HTML y styles.css reemplazan las versiones anteriores; los .webp son nuevas imágenes optimizadas.
-No es necesario borrar README.md ni agustin-panizo.png.
+VERSIÓN V14 — SURF
+
+Sube a la raíz del repositorio estos archivos (reemplazando los existentes cuando corresponda):
+
+- index.html
+- publicaciones.html
+- styles.css
+- img-surf-huanchaco.webp
+- img-surf-chicama.webp
+- img-surf-herradura.webp
+- visual-surf-banner.webp
+
+Este paquete también incluye el resto del sitio, por si prefieres subir todo el contenido del ZIP.
+No borres README.md.
