@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agustín Panizo | Lingüista · Lexicógrafo · Editor · Docente</title>
+  <meta name="description" content="Página personal de Agustín Panizo, lingüista, lexicógrafo, editor y docente.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#inicio">Agustín Panizo</a>
+      <nav aria-label="Navegación principal">
+        <a href="#perfil">Perfil</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#publicaciones">Publicaciones</a>
+        <a href="#docencia">Docencia</a>
+        <a href="#actividades">Actividades</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Página personal</p>
+          <h1>Agustín Panizo</h1>
+          <p class="subtitle">Lingüista · Lexicógrafo · Editor · Docente</p>
+          <p class="intro">
+            Trabajo en lenguas indígenas, lexicografía, políticas lingüísticas,
+            revitalización lingüística, edición y docencia universitaria.
+          </p>
+          <div class="actions">
+            <a class="button primary" href="#perfil">Ver perfil</a>
+            <a class="button secondary" href="#contacto">Contacto</a>
+          </div>
+        </div>
+
+        <div class="portrait-placeholder" aria-label="Espacio reservado para fotografía">
+          <span>AP</span>
+          <small>Fotografía</small>
+        </div>
+      </div>
+    </section>
+
+    <section id="perfil" class="section">
+      <div class="container narrow">
+        <p class="section-label">Perfil</p>
+        <h2>Trayectoria profesional</h2>
+        <p>
+          Lingüista peruano especializado en lexicografía y en el estudio,
+          enseñanza y promoción de las lenguas indígenas. Esta página reúne
+          información sobre mi trabajo profesional, académico y editorial.
+        </p>
+        <p class="note">Este texto es provisional y lo afinaremos juntos.</p>
+      </div>
+    </section>
+
+    <section id="proyectos" class="section alt">
+      <div class="container">
+        <p class="section-label">Proyectos</p>
+        <h2>Áreas de trabajo</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Lexicografía</h3>
+            <p>Diccionarios, recursos lexicográficos y herramientas digitales.</p>
+          </article>
+          <article class="card">
+            <h3>Lenguas indígenas</h3>
+            <p>Documentación, revitalización, derechos lingüísticos y educación.</p>
+          </article>
+          <article class="card">
+            <h3>Edición</h3>
+            <p>Edición, corrección y preparación de textos académicos y profesionales.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="publicaciones" class="section">
+      <div class="container narrow">
+        <p class="section-label">Publicaciones</p>
+        <h2>Libros, artículos y materiales</h2>
+        <p>
+          Aquí incorporaremos una selección ordenada de publicaciones, con enlaces,
+          referencias bibliográficas y, cuando corresponda, archivos descargables.
+        </p>
+      </div>
+    </section>
+
+    <section id="docencia" class="section alt">
+      <div class="container narrow">
+        <p class="section-label">Docencia</p>
+        <h2>Cursos y talleres</h2>
+        <p>
+          Espacio para presentar cursos universitarios, talleres, materiales docentes
+          y actividades de formación.
+        </p>
+      </div>
+    </section>
+
+    <section id="actividades" class="section">
+      <div class="container narrow">
+        <p class="section-label">Conferencias y actividades</p>
+        <h2>Participación académica y profesional</h2>
+        <p>
+          Aquí podremos reunir conferencias, paneles, entrevistas, videos y otras
+          actividades públicas.
+        </p>
+      </div>
+    </section>
+
+    <section id="contacto" class="section contact">
+      <div class="container narrow">
+        <p class="section-label">Contacto</p>
+        <h2>Escríbeme</h2>
+        <p>
+          Añadiremos aquí el correo profesional y los enlaces que quieras hacer públicos.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© <span id="year"></span> Agustín Panizo</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
