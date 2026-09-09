@@ -1,9 +1,6 @@
-FORMULARIO DE CONTACTO — V18
+VERSIÓN V16 — PORTADA MÁS COMPACTA
 
-Tu web está alojada en GitHub Pages y usa HTML/CSS estático, por lo que se ha integrado Formspree con Vanilla JS (Ajax) usando el endpoint/form ID xyeylpld.
-
-Sube estos dos archivos a la raíz del repositorio y reemplaza los actuales:
-- contacto.html
+Solo necesitas reemplazar:
 - styles.css
 
-Después prueba el formulario desde la web publicada y verifica en Formspree que el mensaje llegue correctamente.
+Con este ajuste, la franja de surf en la portada queda bastante más baja y compacta.

@@ -1,0 +1,28 @@
+SEO TÉCNICO — V19
+
+Esta versión parte de la versión estable 16 y conserva el formulario de contacto de la versión 18.
+
+CAMBIOS
+- Títulos SEO y descripciones mejorados en todas las páginas.
+- URL canónica en cada página.
+- Metadatos Open Graph y Twitter para compartir enlaces.
+- Datos estructurados Schema.org de tipo Person en la portada.
+- sitemap.xml con las páginas principales.
+- robots.txt con enlace al sitemap.
+- No se ha cambiado el diseño ni el orden visual de la web.
+
+ARCHIVOS QUE DEBES SUBIR
+Puedes subir todo el contenido de este ZIP a la raíz del repositorio, reemplazando los archivos existentes.
+Los archivos nuevos son:
+- sitemap.xml
+- robots.txt
+
+IMPORTANTE
+Después de publicar estos archivos, el siguiente paso es registrar:
+https://apanizo-star.github.io/
+en Google Search Console como una propiedad de 'Prefijo de URL'.
+
+Luego:
+1. Verifica la propiedad con el método que te ofrezca Google (archivo HTML o etiqueta HTML).
+2. Envía sitemap.xml desde la sección Sitemaps.
+3. Usa Inspección de URL para la portada y solicita la indexación.
