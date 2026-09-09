@@ -1,14 +1,12 @@
-VERSIÓN V14 — SURF
+VERSIÓN V17 — REORDEN DE PRIORIDADES EN LA PORTADA
 
-Sube a la raíz del repositorio estos archivos (reemplazando los existentes cuando corresponda):
-
+Reemplaza estos archivos en GitHub:
 - index.html
-- publicaciones.html
 - styles.css
-- img-surf-huanchaco.webp
-- img-surf-chicama.webp
-- img-surf-herradura.webp
-- visual-surf-banner.webp
 
-Este paquete también incluye el resto del sitio, por si prefieres subir todo el contenido del ZIP.
-No borres README.md.
+La portada ahora prioriza, inmediatamente después del perfil:
+1. Áreas de trabajo
+2. Lingüística, lexicografía, docencia y gestión
+3. Publicaciones
+4. Docencia
+5. Trabajo editorial y surf como líneas secundarias
