@@ -36,33 +36,135 @@
   </section>
 
   <section class="page-content">
-    <div class="container narrow">
+    <div class="container">
+      <div class="contact-layout">
 
-      <div class="contact-card">
-        <h2>Escríbeme</h2>
-        <p>
-          Puedes contactarme por correo electrónico para propuestas de consultoría,
-          docencia, edición, investigación, conferencias o colaboración en proyectos
-          relacionados con lenguas indígenas, lexicografía y política lingüística.
-        </p>
+        <div class="contact-form-card">
+          <h2>Envíame un mensaje</h2>
+          <p>
+            Puedes escribirme directamente desde esta página. Los campos marcados
+            con * son obligatorios.
+          </p>
 
-        <a class="contact-email" href="mailto:apanizo@pucp.edu.pe">apanizo@pucp.edu.pe</a>
+          <div class="form-status form-success" data-fs-success>
+            Gracias. Tu mensaje ha sido enviado correctamente.
+          </div>
 
-        <ul class="contact-topics">
-          <li>Consultoría en lenguas indígenas y políticas lingüísticas</li>
-          <li>Lexicografía y elaboración de recursos lingüísticos</li>
-          <li>Edición, corrección y acompañamiento editorial</li>
-          <li>Docencia, cursos y talleres</li>
-          <li>Conferencias y participación en actividades académicas</li>
-          <li>Proyectos de revitalización lingüística e interculturalidad</li>
-        </ul>
+          <div class="form-status" data-fs-error>
+            No se pudo enviar el mensaje. Revisa los campos e inténtalo nuevamente.
+          </div>
 
-        <p class="contact-note">
-          Por el momento, esta página publica únicamente mi correo profesional.
-          Otros perfiles y enlaces profesionales podrán incorporarse posteriormente.
-        </p>
+          <form id="contact-form" class="contact-form">
+            <div class="form-row">
+              <div class="form-field">
+                <label for="name">Nombre *</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  autocomplete="name"
+                  required
+                  data-fs-field
+                >
+                <span class="form-error" data-fs-error="name"></span>
+              </div>
+
+              <div class="form-field">
+                <label for="email">Correo electrónico *</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  autocomplete="email"
+                  required
+                  data-fs-field
+                >
+                <span class="form-error" data-fs-error="email"></span>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-field">
+                <label for="organization">Institución u organización</label>
+                <input
+                  type="text"
+                  id="organization"
+                  name="organization"
+                  autocomplete="organization"
+                  data-fs-field
+                >
+                <span class="form-error" data-fs-error="organization"></span>
+              </div>
+
+              <div class="form-field">
+                <label for="topic">Motivo de contacto *</label>
+                <select id="topic" name="topic" required data-fs-field>
+                  <option value="" selected disabled>Selecciona una opción</option>
+                  <option value="Consultoría">Consultoría</option>
+                  <option value="Lexicografía y recursos lingüísticos">Lexicografía y recursos lingüísticos</option>
+                  <option value="Docencia o taller">Docencia o taller</option>
+                  <option value="Edición o corrección">Edición o corrección</option>
+                  <option value="Conferencia o actividad académica">Conferencia o actividad académica</option>
+                  <option value="Proyecto o colaboración">Proyecto o colaboración</option>
+                  <option value="Otro">Otro</option>
+                </select>
+                <span class="form-error" data-fs-error="topic"></span>
+              </div>
+            </div>
+
+            <div class="form-field">
+              <label for="subject">Asunto *</label>
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                required
+                data-fs-field
+              >
+              <span class="form-error" data-fs-error="subject"></span>
+            </div>
+
+            <div class="form-field">
+              <label for="message">Mensaje *</label>
+              <textarea
+                id="message"
+                name="message"
+                required
+                data-fs-field
+              ></textarea>
+              <span class="form-error" data-fs-error="message"></span>
+            </div>
+
+            <button type="submit" class="form-submit" data-fs-submit-btn>
+              Enviar mensaje
+            </button>
+
+            <p class="form-required-note">
+              El mensaje será enviado mediante Formspree.
+            </p>
+          </form>
+        </div>
+
+        <aside class="contact-aside">
+          <p class="section-label">También puedes escribirme</p>
+          <h2>Correo profesional</h2>
+
+          <a class="contact-email" href="mailto:apanizo@pucp.edu.pe">
+            apanizo@pucp.edu.pe
+          </a>
+
+          <p>Áreas frecuentes de consulta:</p>
+          <ul class="contact-topics">
+            <li>Consultoría en lenguas indígenas y políticas lingüísticas</li>
+            <li>Lexicografía y elaboración de recursos lingüísticos</li>
+            <li>Docencia, cursos y talleres</li>
+            <li>Edición, corrección y acompañamiento editorial</li>
+            <li>Conferencias y actividades académicas</li>
+            <li>Proyectos de revitalización lingüística e interculturalidad</li>
+          </ul>
+        </aside>
+
       </div>
-
     </div>
   </section>
 </main>
@@ -70,6 +172,18 @@
 <footer>
   <div class="container">© 2026 Agustín Panizo</div>
 </footer>
+
+<script>
+  window.formspree = window.formspree || function () {
+    (formspree.q = formspree.q || []).push(arguments);
+  };
+
+  formspree('initForm', {
+    formElement: '#contact-form',
+    formId: 'xyeylpld'
+  });
+</script>
+<script src="https://unpkg.com/@formspree/ajax@1" defer></script>
 
 </body>
 </html>

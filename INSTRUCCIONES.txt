@@ -1,5 +1,9 @@
-RESTAURAR VERSIÓN 16
+FORMULARIO DE CONTACTO — V18
 
-Sube index.html y styles.css a la raíz del repositorio apanizo-star.github.io.
-Reemplaza los archivos actuales con estos dos.
-No necesitas modificar ningún otro archivo.
+Tu web está alojada en GitHub Pages y usa HTML/CSS estático, por lo que se ha integrado Formspree con Vanilla JS (Ajax) usando el endpoint/form ID xyeylpld.
+
+Sube estos dos archivos a la raíz del repositorio y reemplaza los actuales:
+- contacto.html
+- styles.css
+
+Después prueba el formulario desde la web publicada y verifica en Formspree que el mensaje llegue correctamente.
