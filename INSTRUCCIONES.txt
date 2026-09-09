@@ -1,12 +1,5 @@
-VERSIÓN V17 — REORDEN DE PRIORIDADES EN LA PORTADA
+RESTAURAR VERSIÓN 16
 
-Reemplaza estos archivos en GitHub:
-- index.html
-- styles.css
-
-La portada ahora prioriza, inmediatamente después del perfil:
-1. Áreas de trabajo
-2. Lingüística, lexicografía, docencia y gestión
-3. Publicaciones
-4. Docencia
-5. Trabajo editorial y surf como líneas secundarias
+Sube index.html y styles.css a la raíz del repositorio apanizo-star.github.io.
+Reemplaza los archivos actuales con estos dos.
+No necesitas modificar ningún otro archivo.
