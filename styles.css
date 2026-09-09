@@ -213,7 +213,7 @@ h1 {
 .cards {
   margin-top: 28px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
   gap: 16px;
 }
 
@@ -292,4 +292,86 @@ footer {
   .cards {
     grid-template-columns: 1fr;
   }
+}
+
+/* Publicaciones y serie de surf */
+.publication-section {
+  margin-top: 44px;
+}
+
+.publication-section:first-child {
+  margin-top: 0;
+}
+
+.publication-section > h2 {
+  margin-bottom: 10px;
+}
+
+.series-intro {
+  color: #394649;
+  max-width: 760px;
+}
+
+.series-status {
+  display: inline-block;
+  margin: 10px 0 24px;
+  padding: 6px 11px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: .82rem;
+  color: var(--accent);
+  background: var(--alt);
+}
+
+.article-list {
+  display: grid;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.article-item {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  padding: 22px 24px;
+}
+
+.article-meta {
+  margin: 0 0 7px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: .82rem !important;
+  color: var(--muted);
+}
+
+.article-item h3 {
+  margin: 0 0 9px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 500;
+  font-size: 1.35rem;
+}
+
+.article-item p {
+  margin: 0;
+}
+
+.external-link {
+  display: inline-block;
+  margin-top: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: .88rem;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid var(--accent);
+}
+
+.blog-box {
+  margin-top: 24px;
+  padding: 22px 24px;
+  background: var(--alt);
+  border: 1px solid var(--line);
+}
+
+.blog-box h3 {
+  margin-top: 0;
 }
