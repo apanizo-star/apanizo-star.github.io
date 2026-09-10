@@ -1,6 +1,5 @@
-VERSIÓN V16 — PORTADA MÁS COMPACTA
+ACTUALIZACIÓN DE FOTO DE PERFIL — V21
 
-Solo necesitas reemplazar:
-- styles.css
+Sube el archivo agustin-panizo.png a la raíz del repositorio apanizo-star.github.io y reemplaza el archivo existente con el mismo nombre.
 
-Con este ajuste, la franja de surf en la portada queda bastante más baja y compacta.
+No necesitas modificar ningún archivo HTML ni CSS.
