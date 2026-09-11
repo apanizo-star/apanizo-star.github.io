@@ -1205,3 +1205,24 @@ footer {
     padding: 22px;
   }
 }
+
+
+.preply-box {
+  margin: 28px 0 26px;
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+}
+
+.preply-box h2 {
+  margin: 4px 0 10px;
+  font-size: 1.45rem;
+  font-weight: 500;
+}
+
+.preply-box p {
+  margin-bottom: 16px;
+}
+
+.preply-button {
+  display: inline-block;
+}

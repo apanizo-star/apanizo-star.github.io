@@ -1,5 +1,8 @@
-ACTUALIZACIÓN DE FOTO DE PERFIL — V21
+ACTUALIZACIÓN V22 — PREPLY
 
-Sube el archivo agustin-panizo.png a la raíz del repositorio apanizo-star.github.io y reemplaza el archivo existente con el mismo nombre.
+Reemplaza estos dos archivos en la raíz del repositorio:
+- contacto.html
+- styles.css
 
-No necesitas modificar ningún archivo HTML ni CSS.
+Se añadió en la página de Contacto un bloque 'Clases de quechua' con enlace al perfil de Preply.
+El formulario de Formspree y el SEO existente se conservan.
