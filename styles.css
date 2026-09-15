@@ -1271,3 +1271,17 @@ footer {
     order: -1;
   }
 }
+
+
+.hero-credential {
+  margin: 10px 0 0;
+  max-width: 700px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: .92rem;
+  line-height: 1.45;
+  color: var(--muted);
+}
+
+.hero-credential strong {
+  color: var(--text);
+}

@@ -1,0 +1,24 @@
+VERSIÓN V24 — MAESTRÍA EN LEXICOGRAFÍA
+
+Se incorporó de forma visible la formación de posgrado:
+
+- Máster en Lexicografía Hispánica
+- Universidad de León / Escuela de Lexicografía Hispánica
+- 2002–2003
+
+Cambios realizados:
+1. Portada en español e inglés: la maestría aparece debajo de la descripción profesional.
+2. Perfil en español e inglés: se menciona explícitamente en el primer párrafo.
+3. Perfil en ambos idiomas: se añadió una sección de Formación académica / Education.
+4. SEO del perfil actualizado para incluir la maestría.
+5. Datos estructurados de la portada actualizados con las universidades.
+6. Pequeño ajuste de CSS para la línea de credenciales.
+
+Para publicar, reemplaza:
+- index.html
+- index-en.html
+- perfil.html
+- perfil-en.html
+- styles.css
+
+El resto del sitio permanece sin cambios.
