@@ -1,0 +1,31 @@
+BILINGUAL WEBSITE — VERSION 23
+
+This package adds the complete English version of the website and a language selector (ES / EN)
+at the beginning of the navigation menu on every page.
+
+WHAT IS INCLUDED
+- Existing Spanish site preserved.
+- 8 complete English pages:
+  index-en.html
+  perfil-en.html
+  proyectos-en.html
+  publicaciones-en.html
+  editorial-en.html
+  docencia-en.html
+  actividades-en.html
+  contacto-en.html
+- ES / EN selector on every Spanish and English page.
+- English contact form connected to the same working Formspree form.
+- English Preply link.
+- hreflang metadata linking each Spanish page with its English equivalent.
+- English SEO titles, descriptions, Open Graph metadata, and canonical URLs.
+- sitemap.xml updated to include both languages.
+- Current profile photograph preserved.
+
+HOW TO PUBLISH
+Upload ALL files in this ZIP to the root of the GitHub repository and replace existing files when prompted.
+Do not delete the Google Search Console verification HTML file already in your repository.
+
+NOTE
+Official titles of books, articles, magazines, and publications are kept in their original language
+for bibliographic accuracy; the surrounding website content has been translated into English.
