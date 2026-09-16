@@ -1,0 +1,28 @@
+ACTUALIZACIÓN V25 — FOTO + SEO DE IMAGEN
+
+Objetivo:
+- Usar la misma fotografía actual en la web y en las señales SEO que Google puede leer.
+- Forzar una URL de imagen nueva para evitar depender de la caché de la foto anterior.
+
+Nueva imagen:
+- agustin-panizo-2026.png
+- Dimensiones: 1122 × 1402px
+
+Cambios realizados:
+1. La portada y Perfil/Profile usan agustin-panizo-2026.png.
+2. Todas las páginas en español e inglés apuntan a esa misma imagen en og:image y twitter:image.
+3. Los datos estructurados Person de las portadas también apuntan a esa imagen.
+4. Se añadieron las dimensiones Open Graph de la imagen.
+5. La antigua agustin-panizo.png puede quedarse en el repositorio; ya no es la imagen SEO principal.
+
+PUBLICACIÓN EN GITHUB
+Sube todos los archivos de este ZIP a la raíz del repositorio y reemplaza los HTML existentes.
+No borres el archivo HTML de verificación de Google Search Console.
+
+DESPUÉS DE PUBLICAR
+En Google Search Console:
+1. Inspecciona https://apanizo-star.github.io/
+2. Solicita nuevamente la indexación.
+3. Haz lo mismo con https://apanizo-star.github.io/perfil.html
+
+Google decide finalmente qué miniatura muestra y el cambio puede tardar varios días.
