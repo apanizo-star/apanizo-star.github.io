@@ -1,0 +1,20 @@
+ACTUALIZACIÓN V26 — ENLACES DE LA SERIE DE SURF
+
+Cambios realizados en español e inglés:
+
+1. La referencia a Actualidad Ambiental fue reemplazada por:
+   "la web de la campaña ciudadana HAZla por tu Ola"
+   (en inglés: "the website of the citizen campaign HAZla por tu Ola").
+
+2. Los encabezados de los tres artículos ahora indican HAZla por tu Ola.
+
+3. Los enlaces ahora apuntan a:
+   Huanchaco: https://hazlaportuola.pe/es/noticia/93
+   Chicama: https://hazlaportuola.pe/es/noticia/105
+   La Herradura: https://hazlaportuola.pe/es/noticia/109
+
+4. Las fotografías y sus créditos se mantienen sin cambios.
+
+Para actualizar GitHub, reemplaza únicamente:
+- publicaciones.html
+- publicaciones-en.html
